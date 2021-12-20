@@ -76,8 +76,9 @@
 ```
 # 六、系统运行截图
 &emsp;&emsp;下图是本实验主程序TestBanking.java的运行结果。
-<br>![avatar](https://github.com/songmingyang01/java-2/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202021-11-22%20092448.png)
-<br>![avatar](https://github.com/songmingyang01/java-2/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202021-11-22%20092623.png)
-<br>![avatar](https://github.com/songmingyang01/java-2/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202021-11-22%20092634.png)
+<br>![avatar](https://github.com/songmingyang01/java-6/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202021-12-20%20094611.png)
+<br>![avatar](https://github.com/songmingyang01/java-6/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202021-12-20%20100159.png)
+<br>![avatar](https://github.com/songmingyang01/java-6/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202021-12-20%20100212.png)
+<br>![avatar](https://github.com/songmingyang01/java-6/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202021-12-20%20100227.png)
 # 七、感想与体会
 &emsp;&emsp;本次实验是基于实验二三进行了修改和优化，实现了采用对象序列化的writeObject方法把选课结果存到硬盘文件系统中；采用对象序列化的readObject方法从文件中恢复对象，并操作学生的选课课表，实现退课操作；打印课程对象信息，采用覆盖定义toString（）方法的方式。对课上所学知识进行了巩固，对后续相关知识的学习有了很大的帮助。
