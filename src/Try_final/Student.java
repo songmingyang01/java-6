@@ -7,7 +7,7 @@ public class Student extends People {
     private int age;
     private Course[] c = new Course[5];
     private int i;
-    private File f = new File("d:" + File.separator + "Java\\Experiment06\\TXT" + File.separator + this.getName() + "的课表.txt");
+    private File f = new File("d:" + File.separator + "Java\\TXT" + File.separator + this.getName() + "的课表.txt");
 
     public Student(int id,String name,String sex,int age){
         super(name,id,sex);
@@ -108,11 +108,9 @@ public class Student extends People {
     }
 
     public void write() throws Exception{
-        ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(f)); //输出流：往外输出
-        //System.out.println(Arrays.toString(c));
+        ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(f));
         out.writeObject(c);
         ObjectInputStream in = new ObjectInputStream(new FileInputStream(f));
-        //System.out.println(in.readObject().toString());
         out.close();
 
     }
